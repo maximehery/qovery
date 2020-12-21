@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "SF UI Text";
+  font-style: normal;
+  font-weight: 400;
+  src: local("SF UI Text Regular"),
+    url("./assets/fonts/SFUIText-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  font-style: normal;
+  font-weight: 300;
+  src: local("SF UI Text Light"),
+    url("./assets/fonts/SFUIText-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  font-style: normal;
+  font-weight: 500;
+  src: local("SF UI Text Medium"),
+    url("./assets/fonts/SFUIText-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  font-style: normal;
+  font-weight: 600;
+  src: local("SF UI Text Semibold"),
+    url("./assets/fonts/SFUIText-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  font-style: normal;
+  font-weight: 700;
+  src: local("SF UI Text Bold"),
+    url("./assets/fonts/SFUIText-Bold.woff") format("woff");
+}
+
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
